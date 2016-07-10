@@ -1,0 +1,72 @@
+// Core variables and mixins
+@import "../../node_modules/bootstrap/less/variables.less";
+
+@font-size-base: 28px;
+
+@import "../../node_modules/bootstrap/less/mixins.less";
+
+// Reset and dependencies
+@import "../../node_modules/bootstrap/less/normalize.less";
+@import "../../node_modules/bootstrap/less/print.less";
+//@import "../../node_modules/bootstrap/less/glyphicons.less";
+
+// Core CSS
+@import "../../node_modules/bootstrap/less/scaffolding.less";
+@import "../../node_modules/bootstrap/less/type.less";
+@import "../../node_modules/bootstrap/less/code.less";
+@import "../../node_modules/bootstrap/less/grid.less";
+@import "../../node_modules/bootstrap/less/tables.less";
+@import "../../node_modules/bootstrap/less/forms.less";
+@import "../../node_modules/bootstrap/less/buttons.less";
+
+// Utility classes
+@import "../../node_modules/bootstrap/less/utilities.less";
+@import "../../node_modules/bootstrap/less/responsive-utilities.less";
+
+.alphabet {
+  max-width: 768px;
+  margin: 0 auto;
+  font-size: @font-size-base;
+
+  h2 {
+    text-align: center;
+  }
+}
+
+.alphabet-handwriting-char {
+  width: 24px;
+}
+
+.alphabet-transliteration {
+  text-align: right;
+}
+
+.alphabet-table td {
+  line-height: @line-height-computed !important;
+  vertical-align: middle !important;
+}
+
+.alphabet-table-n-cell {
+  font-size: 14px !important;
+}
+
+.alphabet-test {
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.alphabet-test-content {
+  border-radius: @border-radius-base;
+  margin-bottom: @line-height-computed;
+  background: @jumbotron-bg;
+  line-height: @line-height-computed;
+  width: 100%;
+  text-align: center;
+  min-height: 70px;
+  display: table;
+}
+
+.alphabet-test-question{
+  display: table-cell;
+  vertical-align: middle;
+}

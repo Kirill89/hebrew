@@ -1,0 +1,31 @@
+{
+  "name": "hebrew",
+  "version": "0.1.0",
+  "description": "Hebrew learn guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "alphabet": "./scripts/alphabet.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Kirill89/hebrew.git"
+  },
+  "keywords": [
+    "hebrew"
+  ],
+  "author": "Kirill Efimov <kirill89@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kirill89/hebrew/issues"
+  },
+  "homepage": "https://github.com/Kirill89/hebrew",
+  "dependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babelify": "^7.3.0",
+    "bootstrap": "^3.3.6",
+    "browserify": "^13.0.1",
+    "jquery": "^3.1.0",
+    "less": "^2.7.1"
+  }
+}
